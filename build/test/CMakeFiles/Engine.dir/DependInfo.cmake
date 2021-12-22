@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src/gfx/CMakeFiles/gfx.dir/DependInfo.cmake"
+  "C:/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src/gfx/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

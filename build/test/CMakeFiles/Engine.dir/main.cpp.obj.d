@@ -1,6 +1,6 @@
 test/CMakeFiles/Engine.dir/main.cpp.obj: \
  C:/Users/nahiy/Desktop/nightmarket/c++/3D\ Abstraction/Engine/test/main.cpp \
- C:/Users/nahiy/Desktop/nightmarket/c++/3D\ Abstraction/Engine/src/gfx/go.h \
+ C:/Users/nahiy/Desktop/nightmarket/c++/3D\ Abstraction/Engine/src/gfx/include/go.h \
  C:/msys64/mingw64/include/c++/10.3.0/iostream \
  C:/msys64/mingw64/include/c++/10.3.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/10.3.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -135,4 +135,6 @@ test/CMakeFiles/Engine.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/10.3.0/bits/basic_ios.tcc \
  C:/msys64/mingw64/include/c++/10.3.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/10.3.0/istream \
- C:/msys64/mingw64/include/c++/10.3.0/bits/istream.tcc
+ C:/msys64/mingw64/include/c++/10.3.0/bits/istream.tcc \
+ C:/Users/nahiy/Desktop/nightmarket/c++/3D\ Abstraction/Engine/external/glfw/include/GLFW/glfw3.h \
+ C:/msys64/mingw64/x86_64-w64-mingw32/include/GL/gl.h

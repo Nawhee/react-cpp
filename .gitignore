@@ -11,8 +11,8 @@ CTestTestfile.cmake
 _deps
 
 *.bat
-
-out/build
+build
+external
 [Bb][Uu][Ii][Ll][Dd][/]
 
 # Prerequisites

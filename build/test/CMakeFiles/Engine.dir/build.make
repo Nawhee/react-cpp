@@ -70,6 +70,7 @@ include test/CMakeFiles/Engine.dir/progress.make
 include test/CMakeFiles/Engine.dir/flags.make
 
 test/CMakeFiles/Engine.dir/main.cpp.obj: test/CMakeFiles/Engine.dir/flags.make
+test/CMakeFiles/Engine.dir/main.cpp.obj: test/CMakeFiles/Engine.dir/includes_CXX.rsp
 test/CMakeFiles/Engine.dir/main.cpp.obj: ../test/main.cpp
 test/CMakeFiles/Engine.dir/main.cpp.obj: test/CMakeFiles/Engine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/Engine.dir/main.cpp.obj"
@@ -92,6 +93,8 @@ Engine_EXTERNAL_OBJECTS =
 
 Engine.exe: test/CMakeFiles/Engine.dir/main.cpp.obj
 Engine.exe: test/CMakeFiles/Engine.dir/build.make
+Engine.exe: src/gfx/libgfx.a
+Engine.exe: src/gfx/glfw/src/libglfw3.a
 Engine.exe: test/CMakeFiles/Engine.dir/linklibs.rsp
 Engine.exe: test/CMakeFiles/Engine.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../Engine.exe"

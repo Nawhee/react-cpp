@@ -9,7 +9,7 @@ make: *** No rule to make target 'all'.  Stop.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Wed Dec 22 00:01:53 2021
+# Make data base, printed on Wed Dec 22 14:41:53 2021
 
 # Variables
 
@@ -24,7 +24,7 @@ USERPROFILE = C:\Users\nahiy
 # environment
 LOCALAPPDATA = C:\Users\nahiy\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ca843f4f-2481-41b2-a1bb-c7194863ab75-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c9953771-f3db-4b2c-a0ad-b647d1fcae8f-sock
 # environment
 VSCODE_CWD = C:\Users\nahiy\Desktop\nightmarket\c++\3D Abstraction\Engine
 # environment
@@ -40,7 +40,7 @@ MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14792_CELVDYYDDXSMNROZ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9780_CMELRLMOBZLSKKZG
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -98,7 +98,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 14792
+VSCODE_PID = 9780
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -278,6 +278,6 @@ GNUmakefile:
 # strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
-# Finished Make data base on Wed Dec 22 00:01:53 2021
+# Finished Make data base on Wed Dec 22 14:41:53 2021
 
  

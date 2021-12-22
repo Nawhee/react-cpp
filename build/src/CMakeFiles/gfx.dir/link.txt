@@ -1,2 +1,0 @@
-C:/msys64/mingw64/bin/ar.exe qc libgfx.a CMakeFiles/gfx.dir/gfx/go.cpp.obj
-C:/msys64/mingw64/bin/ranlib.exe libgfx.a
