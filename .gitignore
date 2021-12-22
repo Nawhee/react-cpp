@@ -10,9 +10,8 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
-*.bat
-build
-external
+build/
+external/
 [Bb][Uu][Ii][Ll][Dd][/]
 
 # Prerequisites
