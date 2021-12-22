@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/CreateWindow.cpp" "src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj" "gcc" "src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj.d"
+  "C:/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/go.cpp" "src/CMakeFiles/gfx.dir/gfx/go.cpp.obj" "gcc" "src/CMakeFiles/gfx.dir/gfx/go.cpp.obj.d"
   )
 
 # Targets to which this target links.

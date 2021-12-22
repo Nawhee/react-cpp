@@ -85,51 +85,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/C/Users/nahiy/Desktop/nightmarket/cmake-3.22.0-windows-x86_64/bin/cmake.exe -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/C/Users/nahiy/Desktop/nightmarket/cmake-3.22.0-windows-x86_64/bin/cmake.exe -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/C/Users/nahiy/Desktop/nightmarket/cmake-3.22.0-windows-x86_64/bin/cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/C/Users/nahiy/Desktop/nightmarket/cmake-3.22.0-windows-x86_64/bin/cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/C/Users/nahiy/Desktop/nightmarket/cmake-3.22.0-windows-x86_64/bin/cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/C/Users/nahiy/Desktop/nightmarket/cmake-3.22.0-windows-x86_64/bin/cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src//CMakeFiles/progress.marks"
@@ -175,29 +130,29 @@ gfx/fast:
 	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/gfx.dir/build.make src/CMakeFiles/gfx.dir/build
 .PHONY : gfx/fast
 
-gfx/CreateWindow.obj: gfx/CreateWindow.cpp.obj
-.PHONY : gfx/CreateWindow.obj
+gfx/go.obj: gfx/go.cpp.obj
+.PHONY : gfx/go.obj
 
 # target to build an object file
-gfx/CreateWindow.cpp.obj:
-	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/gfx.dir/build.make src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj
-.PHONY : gfx/CreateWindow.cpp.obj
+gfx/go.cpp.obj:
+	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/gfx.dir/build.make src/CMakeFiles/gfx.dir/gfx/go.cpp.obj
+.PHONY : gfx/go.cpp.obj
 
-gfx/CreateWindow.i: gfx/CreateWindow.cpp.i
-.PHONY : gfx/CreateWindow.i
+gfx/go.i: gfx/go.cpp.i
+.PHONY : gfx/go.i
 
 # target to preprocess a source file
-gfx/CreateWindow.cpp.i:
-	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/gfx.dir/build.make src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.i
-.PHONY : gfx/CreateWindow.cpp.i
+gfx/go.cpp.i:
+	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/gfx.dir/build.make src/CMakeFiles/gfx.dir/gfx/go.cpp.i
+.PHONY : gfx/go.cpp.i
 
-gfx/CreateWindow.s: gfx/CreateWindow.cpp.s
-.PHONY : gfx/CreateWindow.s
+gfx/go.s: gfx/go.cpp.s
+.PHONY : gfx/go.s
 
 # target to generate assembly for a file
-gfx/CreateWindow.cpp.s:
-	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/gfx.dir/build.make src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.s
-.PHONY : gfx/CreateWindow.cpp.s
+gfx/go.cpp.s:
+	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/gfx.dir/build.make src/CMakeFiles/gfx.dir/gfx/go.cpp.s
+.PHONY : gfx/go.cpp.s
 
 # Help Target
 help:
@@ -206,15 +161,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... gfx"
-	@echo "... gfx/CreateWindow.obj"
-	@echo "... gfx/CreateWindow.i"
-	@echo "... gfx/CreateWindow.s"
+	@echo "... gfx/go.obj"
+	@echo "... gfx/go.i"
+	@echo "... gfx/go.s"
 .PHONY : help
 
 

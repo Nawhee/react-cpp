@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj"
-  "CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj.d"
+  "CMakeFiles/gfx.dir/gfx/go.cpp.obj"
+  "CMakeFiles/gfx.dir/gfx/go.cpp.obj.d"
   "libgfx.a"
   "libgfx.pdb"
 )

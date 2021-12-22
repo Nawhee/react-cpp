@@ -69,29 +69,29 @@ include src/CMakeFiles/gfx.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/gfx.dir/flags.make
 
-src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj: src/CMakeFiles/gfx.dir/flags.make
-src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj: src/CMakeFiles/gfx.dir/includes_CXX.rsp
-src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj: ../src/gfx/CreateWindow.cpp
-src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj: src/CMakeFiles/gfx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj"
-	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src" && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj -MF CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj.d -o CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj -c "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/CreateWindow.cpp"
+src/CMakeFiles/gfx.dir/gfx/go.cpp.obj: src/CMakeFiles/gfx.dir/flags.make
+src/CMakeFiles/gfx.dir/gfx/go.cpp.obj: src/CMakeFiles/gfx.dir/includes_CXX.rsp
+src/CMakeFiles/gfx.dir/gfx/go.cpp.obj: ../src/gfx/go.cpp
+src/CMakeFiles/gfx.dir/gfx/go.cpp.obj: src/CMakeFiles/gfx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/gfx.dir/gfx/go.cpp.obj"
+	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src" && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/gfx.dir/gfx/go.cpp.obj -MF CMakeFiles/gfx.dir/gfx/go.cpp.obj.d -o CMakeFiles/gfx.dir/gfx/go.cpp.obj -c "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/go.cpp"
 
-src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.i"
-	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src" && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/CreateWindow.cpp" > CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.i
+src/CMakeFiles/gfx.dir/gfx/go.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gfx.dir/gfx/go.cpp.i"
+	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src" && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/go.cpp" > CMakeFiles/gfx.dir/gfx/go.cpp.i
 
-src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.s"
-	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src" && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/CreateWindow.cpp" -o CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.s
+src/CMakeFiles/gfx.dir/gfx/go.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfx.dir/gfx/go.cpp.s"
+	cd "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/src" && /C/msys64/mingw64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/src/gfx/go.cpp" -o CMakeFiles/gfx.dir/gfx/go.cpp.s
 
 # Object files for target gfx
 gfx_OBJECTS = \
-"CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj"
+"CMakeFiles/gfx.dir/gfx/go.cpp.obj"
 
 # External object files for target gfx
 gfx_EXTERNAL_OBJECTS =
 
-src/libgfx.a: src/CMakeFiles/gfx.dir/gfx/CreateWindow.cpp.obj
+src/libgfx.a: src/CMakeFiles/gfx.dir/gfx/go.cpp.obj
 src/libgfx.a: src/CMakeFiles/gfx.dir/build.make
 src/libgfx.a: src/CMakeFiles/gfx.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgfx.a"
