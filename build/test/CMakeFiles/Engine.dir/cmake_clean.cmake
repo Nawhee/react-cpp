@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "../Engine.exe"
+  "../Engine.exe.manifest"
+  "../Engine.pdb"
   "CMakeFiles/Engine.dir/main.cpp.obj"
   "CMakeFiles/Engine.dir/main.cpp.obj.d"
-  "Engine.exe"
-  "Engine.exe.manifest"
-  "Engine.pdb"
   "libEngine.dll.a"
 )
 

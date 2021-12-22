@@ -137,7 +137,7 @@ src/CMakeFiles/gfx.dir/clean:
 # Target rules for target test/CMakeFiles/Engine.dir
 
 # All Build rule for target.
-test/CMakeFiles/Engine.dir/all: src/CMakeFiles/gfx.dir/all
+test/CMakeFiles/Engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Engine.dir/build.make test/CMakeFiles/Engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Engine.dir/build.make test/CMakeFiles/Engine.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" --progress-num=1,2 "Built target Engine"
@@ -145,7 +145,7 @@ test/CMakeFiles/Engine.dir/all: src/CMakeFiles/gfx.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/Engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/C/Users/nahiy/Desktop/nightmarket/c++/3D Abstraction/Engine/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/Engine.dir/rule
