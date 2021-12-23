@@ -1,9 +1,9 @@
-#include <go.h>
+#include <gtest/gtest.h>
+#include <go_test.cpp>
 
 int main()
 {
-    go obj;
-    obj.create();
+    go_tester::tester();
     return 0;
 }
 
