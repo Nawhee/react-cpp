@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.16)
 project(boilerplate VERSION 1.0)
 
 configure_file(boilerplate_config.h.in boilerplate_config.h)

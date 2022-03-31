@@ -1,4 +1,3 @@
-cmake_minimum_required(VERSION 3.22)
 add_library(app1_test
     go_test.cpp
 )
