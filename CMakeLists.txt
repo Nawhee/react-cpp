@@ -9,7 +9,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 #dep
-add_subdirectory(${CMAKE_SOURCE_DIR}/extra/googletest extra/googletest)
+add_subdirectory(${CMAKE_SOURCE_DIR}/external/googletest external/googletest)
+add_subdirectory(${CMAKE_SOURCE_DIR}/external/gen_core external/gen_core)
 
 add_subdirectory(src)
 add_subdirectory(test)

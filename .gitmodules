@@ -1,3 +1,6 @@
-[submodule "extra/googletest"]
-	path = extra/googletest
+[submodule "external/googletest"]
+	path = external/googletest
 	url = https://github.com/google/googletest.git
+[submodule "external/gen_core"]
+	path = external/gen_core
+	url = https://github.com/Nawhee/gen_core.git
