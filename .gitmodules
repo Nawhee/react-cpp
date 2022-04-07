@@ -4,3 +4,6 @@
 [submodule "external/gen_core"]
 	path = external/gen_core
 	url = https://github.com/Nawhee/gen_core.git
+[submodule "gen_core"]
+	path = gen_core
+	url = https://github.com/Nawhee/gen_core.git
